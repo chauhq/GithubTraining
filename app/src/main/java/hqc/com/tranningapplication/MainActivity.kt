@@ -38,6 +38,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 
+fun sum(a: Int, b: Int) : Int {
+    return a + b
+}
+
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
